@@ -33,7 +33,7 @@ namespace ModuleFourChapter11
             }
         }
 
-        public string this[string name, int qty]
+        public string this[string name, int qty]// overload interface
         {
             get
             {

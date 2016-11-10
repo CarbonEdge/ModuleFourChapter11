@@ -33,8 +33,16 @@ namespace ModuleFourChapter11
             Console.WriteLine("Average horsepower of the two engines: {0}",eg);
             Console.WriteLine("Most Powerful Engine {0}", newEngine1<newEngine2);
             ////////////////
+            Console.WriteLine("\n\tExtention methods");
+            string test1 = "Test Word";
+            string result = test1.upperCaseString();
+            Console.WriteLine(result);
+            ///////////////////
+            Console.WriteLine("\n \tAnonomous types");
+            Predicate<CarDealer> findADealer = new Predicate<CarDealer>(FindCar(cart, "Toyota"));
 
-
+            
+            //////////////
             Console.ReadKey();
         }
     }
